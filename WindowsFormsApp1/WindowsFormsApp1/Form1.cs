@@ -22,6 +22,7 @@ namespace WindowsFormsApp1
         {
             if (txtUsername.Text == "" || txtPassword.Text == "")
             {
+
                 MessageBox.Show("Please write username and/or password", "Uyarı",
                     MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
